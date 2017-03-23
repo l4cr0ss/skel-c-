@@ -21,7 +21,7 @@
 #-----------------------------------------------------------------------------#
 
 #......	Compiler Flags	
-CC ?= g++
+CC = g++
 INC = -Iinc/  
 CFLAGS 	= -Wall -Wextra $(INC)
 LDFLAGS =
