@@ -23,7 +23,7 @@
 #......	Compiler Flags	
 CC = g++
 INC = -Iinc/  
-CFLAGS 	= -Wall -Wextra $(INC)
+CFLAGS 	= -Wall -Wextra $(INC) -std=c++14
 LDFLAGS =
 #.............................................................................
 
