@@ -1,0 +1,5 @@
+bin/*
+dbg/*
+test/*
+inc/creds.h
+*.swp
