@@ -16,7 +16,7 @@
 #elif INFO
   #define DBG_L _INFO
 #else
-  #define DBG_L
+  #define DBG_L 0
 #endif
 
 #include <stdio.h>
