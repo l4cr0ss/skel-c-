@@ -66,7 +66,7 @@ RELCFLAGS = -O3 -DNDEBUG
 TESTDIR = test
 TESTEXE = $(TESTDIR)/$(EXE)
 TESTOBJS = $(addprefix $(DBGDIR)/, $(OBJS))
-TESTFLAGS = -g -O0 -DDEBUG
+TESTCFLAGS = -g -O0 -DDEBUG
 #.............................................................................
 
 .PHONY: all clean debug prep release test
